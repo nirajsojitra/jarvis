@@ -60,6 +60,9 @@ function takeCommand(message){
         window.open("https://google.com", "_blank");
         speak("Opening Google...")
     }
+    else if(message.includes("who is your programmer")){
+        speak("my programmer name is niraj sojitra")
+    }    
     else if(message.includes("open youtube")){
         window.open("https://youtube.com", "_blank");
         speak("Opening Youtube...")
